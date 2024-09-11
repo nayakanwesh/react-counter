@@ -1,0 +1,63 @@
+#container{
+  width:100%;
+  
+  height:100vh;
+  background-image: linear-gradient(rgb(63, 231, 80),rgb(239, 105, 105));
+}
+
+.app-container {
+  text-align: center;
+  height:100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+
+.card {
+  background-color:white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px rgba(10, 10, 10, 0.1);
+  display: inline-block;
+  width: 350px;
+  margin-bottom: 20px;
+  /* height:250px; */
+
+}
+
+
+.button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#btn{
+  background-color: #FF4136; 
+}
+
+
+.child-button {
+  background-color: #28A745;
+}
+
+.count {
+  font-size: 24px;
+  margin: 10px 0;
+  
+}
+#ct{
+  font-size: 34px;
+  background-color:rgb(240, 237, 230);
+}
